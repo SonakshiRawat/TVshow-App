@@ -1,0 +1,54 @@
+.cen{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   margin: auto;
+    padding-top: 40px;
+  }
+
+  .middle {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+  }
+  .blocks2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+  }
+
+p{
+  font-size: 17px;
+  color: rgb(168, 165, 165);
+}
+  
+  .movies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .type {
+    padding: 10px;
+  }
+
+  .overview{
+    color: white;
+    text-align: left;
+    width: 530px;
+    margin: 10px 0px;
+  }

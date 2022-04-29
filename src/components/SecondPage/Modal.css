@@ -1,0 +1,153 @@
+.centre{
+    position: relative;
+    
+}
+
+.modal{
+    width: 470px;
+    height: 290px;
+    background-color: white;
+    position: absolute;
+top:15%;
+left: 27%;
+/* top:15vh;
+left: 27vw; */
+z-index: 300;
+text-align: left;
+border: 10px solid rgb(189, 189, 10);
+}
+
+.shut{
+    padding: 40px 30px;
+    position: relative;
+
+}
+.overlay{
+    filter: blur(5px);
+    background-color: rgba(0, 0,0, 0.6);
+}
+
+.hidden{
+    display: none;
+}
+
+
+.movie{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ro{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tilt{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 15px;
+    color: gray;
+    /* width: 10px; */
+    height: 100px;
+}
+.pre{
+    font-size: 17px;
+}
+.colo{
+    color: gray;
+}
+
+.book{
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(189, 189, 10);
+   margin-top: 20px;
+    border: none;
+    color: rgb(248, 246, 246);
+  }
+  
+  .book:hover {
+    background-color: rgb(167, 167, 7);
+  }
+
+  .close{
+      cursor: pointer;
+      position: absolute;
+      top:-10%;
+      right: -6%;
+      color: white;
+  }
+
+  @media (max-width:998px) {
+    .modal{
+    left: 20%;
+   
+    }
+  }
+
+  @media (max-width:750px) {
+    .modal{
+    left: 11%;
+   
+    }
+  }
+
+  @media (max-width:626px) {
+    .modal{
+    left: 7%;
+   
+    }
+  }
+
+  @media (max-width:568px) {
+    .modal{
+    top:4%;
+    left: 14%;
+    width: 370px;
+    height: 400px;
+
+   
+    }
+    .category{
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width:522px) {
+    .modal{
+    left: 9%;
+   
+    }
+  }
+
+  @media (max-width:466px) {
+    .modal{
+    left: 11%;
+    width: 280px;
+    }
+  }
+
+  @media (max-width:400px) {
+    .modal{
+    left: 6%;
+    }
+  }
+
+  @media (max-width:348px) {
+    .modal{
+    left: 4%;
+    width: 260px;
+
+    }
+  }
